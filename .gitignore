@@ -1,0 +1,9 @@
+# 静态资源文件
+/public
+
+# 部署自动生成的文件
+/resources
+.hugo_build.lock
+
+# hugo命令
+hugo.exe
