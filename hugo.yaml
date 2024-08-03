@@ -114,7 +114,7 @@ params:
 
         # Waline client configuration see: https://waline.js.org/en/reference/component.html
         waline:
-            serverURL: https://lawrencesivan.github.io/
+            serverURL: https://lawrencesivan-6j8b20lve-lawrencesivans-projects.vercel.app/
             lang: 
             pageview:
             emoji:
