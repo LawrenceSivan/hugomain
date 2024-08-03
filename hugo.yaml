@@ -3,7 +3,7 @@ languageCode: en-us
 theme: hugo-theme-stack
 paginate: 3
 title: LawrenceSivan's home
-copyright: Example Person
+copyright: LawrenceSivan
 
 # Theme i18n support
 # Available values: ar, bn, ca, de, el, en, es, fr, hu, id, it, ja, ko, nl, pt-br, th, uk, zh-cn, zh-hk, zh-tw
@@ -79,7 +79,7 @@ params:
 
     comments:
         enabled: true
-        provider: disqus
+        provider: waline
 
         disqusjs:
             shortname:
@@ -114,8 +114,8 @@ params:
 
         # Waline client configuration see: https://waline.js.org/en/reference/component.html
         waline:
-            serverURL:
-            lang:
+            serverURL: https://lawrencesivan.github.io/
+            lang: 
             pageview:
             emoji:
                 - https://unpkg.com/@waline/emojis@1.0.1/weibo
